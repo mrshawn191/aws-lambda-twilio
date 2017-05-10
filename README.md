@@ -1,10 +1,10 @@
 ## aws-lambda-twilio
 
-This is a AWS Lambda function deployed and hosted at Amazon. We also used the serverless framework [Serverless framework](https://serverless.com/) to handle all the necessary infrastructure needed for deploying in Amazon. Serverless also has support for Azure function and Apache OpenWhisk.
+This is a AWS Lambda function deployed and hosted at Amazon. We also used the [Serverless framework](https://serverless.com/) to handle all the necessary infrastructure needed for deploying in Amazon. Serverless also has support for Azure function and Apache OpenWhisk.
 
 We also need to add a trigger to access our AWS lambda function. For that we added an Amazon API Gateway, that can be configured under "Trigger" in the aws lambda dashboard.
 
-This project goes in hand with a front-end application that simply serves as a html document that triggers http call to the aws lambda function through the api gateway. The link to the front-end application that was used in this example is here - [front-end react](https://github.com/mrshawn191/serverless-twilio-example)
+This project goes in hand with a front-end application that simply serves as a html document that triggers http call to the aws lambda function through the api gateway. The link to the front-end application that was used in this example is here - [Twilio-client-example](https://github.com/mrshawn191/serverless-twilio-example)
 
 ## Project Structure
 
@@ -41,7 +41,7 @@ This project goes in hand with a front-end application that simply serves as a h
 
 The front-end application is hosted in heroku and is connected to the aws lambda function through the api gateway.
 
-The link to the application is here - [Twilio-client-example](https://github.com/mrshawn191/serverless-twilio-example)
+The link to the demo live is here - [Live demonstration](https://github.com/mrshawn191/serverless-twilio-example)
 
 ## Dependencies used
 
