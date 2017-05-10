@@ -8,26 +8,27 @@ This project goes in hand with a front-end application that simply serves as a h
 
 ## Project Structure
 
-handler.js - Contains the lambda function itself
-event.json - Contains the main data structure used as payload for the lambda function to execute upon
-serverless.yml - Contains the configuration needed by the serverless framework, to host and deploy on Amazon
-package.json - Contains all the needed dependency, in this example we used Twilio Javascript SDK
+#### handler.js - Contains the lambda function itself
+
+#### event.json - Contains the main data structure used as payload for the lambda function to execute upon
+
+#### serverless.yml - Contains the configuration needed by the serverless framework, to host and deploy on Amazon
+
+#### package.json - Contains all the needed dependency, in this example we used Twilio Javascript SDK
 
 ## Project Design
 
-Inline-style:
 ![alt text](https://github.com/mrshawn191/aws-lambda-twilio/blob/master/aws%20serverless%20design.png "Logo Title Text 1")
 
 ## Getting started
 
 1. To get started, first install the Serverless Dashboard
 
-- [Serverless Dashboard](https://github.com/serverless/dashboard)
-
+[Serverless Dashboard](https://github.com/serverless/dashboard)
 
 2. Configure to your AWS Account, follow this youtube tutorial video to get you started
 
-- [Setting up AWS Credentials](https://www.youtube.com/watch?v=HSd9uYj2LJA)
+[Setting up AWS Credentials](https://www.youtube.com/watch?v=HSd9uYj2LJA)
 
 3. Create a new service using the serverless dashboard client, and deploy your lambda function to Amazon
 
