@@ -16,25 +16,28 @@ package.json - Contains all the needed dependency, in this example we used Twili
 ## Project Design
 
 Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/mrshawn191/aws-lambda-twilio/blob/master/aws%20serverless%20design.png "Logo Title Text 1")
 
 ## Getting started
 
-To get started, first install the Serverless Dashboard
+1. To get started, first install the Serverless Dashboard
 
 - [Serverless Dashboard](https://github.com/serverless/dashboard)
 
 
-Configure to your AWS Account, follow this youtube tutorial video to get you started
+2. Configure to your AWS Account, follow this youtube tutorial video to get you started
 
 - [Setting up AWS Credentials](https://www.youtube.com/watch?v=HSd9uYj2LJA)
 
+3. Create a new service using the serverless dashboard client, and deploy your lambda function to Amazon
 
-Create a new service using the serverless dashboard client, and deploy your lambda function to Amazon
+4. Create your twilio account so that you can use your own TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN. You also need to get your own TWILIO_PHONE_NUMBER which is a requirement when you send sms.
 
-Add a new trigger, select Amazon API Gateway
+4. Setup your environmental variables in the aws lambda function dashboard.
 
-You should now have a custom api endpoint that you can use in your client to access your lambda function
+5. Add a new trigger, select Amazon API Gateway
+
+6. You should now have a custom api endpoint that you can use in your client to access your lambda function
 
 ## Demonstration
 
