@@ -18,17 +18,14 @@ This project goes in hand with a front-end application that simply serves as a h
 
 ## Project Design
 
+
 ![alt text](https://github.com/mrshawn191/aws-lambda-twilio/blob/master/aws%20serverless%20design.png "Logo Title Text 1")
 
 ## Getting started
 
-1. To get started, first install the Serverless Dashboard
+1. To get started, first install the Serverless Dashboard [Serverless Dashboard](https://github.com/serverless/dashboard)
 
-[Serverless Dashboard](https://github.com/serverless/dashboard)
-
-2. Configure to your AWS Account, follow this youtube tutorial video to get you started
-
-[Setting up AWS Credentials](https://www.youtube.com/watch?v=HSd9uYj2LJA)
+2. Configure to your AWS Account, follow this youtube tutorial video to get you started [Setting up AWS Credentials](https://www.youtube.com/watch?v=HSd9uYj2LJA)
 
 3. Create a new service using the serverless dashboard client, and deploy your lambda function to Amazon
 
@@ -44,7 +41,7 @@ This project goes in hand with a front-end application that simply serves as a h
 
 The front-end application is hosted in heroku and is connected to the aws lambda function through the api gateway.
 
-The link to the application is here - [Twilio-serverless-example](https://github.com/mrshawn191/serverless-twilio-example)
+The link to the application is here - [Twilio-client-example](https://github.com/mrshawn191/serverless-twilio-example)
 
 ## Dependencies used
 
@@ -52,6 +49,6 @@ The link to the application is here - [Twilio-serverless-example](https://github
 
 ## Links
 
-- [front-end react example](https://github.com/mrshawn191/serverless-twilio-example)
+- [Twilio-client-example](https://github.com/mrshawn191/serverless-twilio-example)
 - [Serverless framework](https://github.com/mzabriskie/axios)
 - [Twilio SDK](https://github.com/mzabriskie/axios)
