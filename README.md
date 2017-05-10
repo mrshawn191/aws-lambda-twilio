@@ -37,11 +37,11 @@ This project goes in hand with a front-end application that simply serves as a h
 
 6. You should now have a custom api endpoint that you can use in your client to access your lambda function
 
-## Demonstration
+## Live Demo
 
-The front-end application is hosted in heroku and is connected to the aws lambda function through the api gateway.
+The front-end application is a simple react application hosted in heroku.
 
-The link to the demo live is here - [Live demonstration](https://github.com/mrshawn191/serverless-twilio-example)
+The link to the demo live is here - [Live demonstration](https://frozen-beyond-34446.herokuapp.com/)
 
 ## Dependencies used
 
